@@ -11,10 +11,10 @@ export const de: Translation = {
       header: "Warnung!",
       message: {
         theFileText: "Die Datei",
-        areYouSureToOverrideText: "existieren! Sind Sie sicher, dass Sie diese Datei außer Kraft setzen wollen?",
+        areYouSureToOverrideText: "existiert bereits! Sind Sie sicher, dass Sie diese Datei überschreiben wollen?",
       },
       buttons: {
-        yes: "Überschreiben Sie",
+        yes: "Ja",
         no: "Nein",
       },
     },
@@ -25,16 +25,16 @@ export const de: Translation = {
     pleaseWait: "Bitte warten...",
     connectingToMotor: "Anschluss an den Motor...",
     noDeviceFound: "Kein Gerät gefunden!",
-    cantEstablishingConnection: "Kann keine Verbindung zum Motor herstellen! Verbindung prüfen Ende neu starten!",
+    cantEstablishingConnection: "Kann keine Verbindung zum Motor herstellen! Verbindung prüfen und neu starten!",
     connectedTo: "Verbunden mit",
     readBasSuccess: {
       basTypeLevel: "Levels",
       basTypeGeneral: "Allgemein",
-      first: "Lesen Sie",
+      first: "Lesen der",
       second: "Parameter erfolgreich!",
     },
-    readPedalAssistSuccess: "Pedal Assist Parameter erfolgreich lesen!",
-    readThrottleHandleSuccess: "Parameter des Gasgriffs erfolgreich lesen",
+    readPedalAssistSuccess: "Pedal Assist Parameter erfolgreich gelesen!",
+    readThrottleHandleSuccess: "Parameter des Gasgriffs erfolgreich gelesen",
     readAllSuccess: "Alle Parameter erfolgreich gelesen!",
     somethingWentWrong: "Etwas ist schief gelaufen! Log:",
     writeSuccess: {
@@ -42,10 +42,10 @@ export const de: Translation = {
       general: "Allgemein",
       pedalAssist: "Pedal-Unterstützung",
       throttleHandle: "Throttle Handle",
-      first: "Schreiben Sie",
+      first: "Schreiben der",
       second: "Parameter erfolgreich!",
     },
-    writeAllSuccess: "Alle Parameter erfolgreich schreiben!",
+    writeAllSuccess: "Alle Parameter erfolgreich geschrieben!",
   },
   buttons: {
     cancel: "Abbrechen",
@@ -121,8 +121,8 @@ export const de: Translation = {
     },
     object_Motor: {
       header: "Motor",
-      read_all: "Lesen Sie",
-      write_all: "Schreiben Sie",
+      read_all: "Lesen",
+      write_all: "Schreiben",
       connect: "Verbinden",
       disconnect: "Trennen Sie die Verbindung",
       status: {
@@ -147,10 +147,10 @@ export const de: Translation = {
       general: "Allgemein",
       levels: "Levels",
       pedal: "Pedal",
-      throttle: "Drosselklappe",
+      throttle: "Gasgriff",
     },
     header: {
-      readButtonText: "Lesen Sie",
+      readButtonText: "Lesen",
       writeButtonText: "Speichern",
     },
     tabs: {
